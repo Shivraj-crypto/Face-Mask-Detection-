@@ -56,7 +56,7 @@ def main():
         frame = label_annotator.annotate(scene=frame, detections=detections)
         cv2.imshow("yolov8", frame)
         
-        if cv2.waitKey(50) == 27:
+        if cv2.waitKey(50) == 37:
             break
 
     cap.release()
